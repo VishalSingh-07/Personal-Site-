@@ -1,0 +1,378 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin:0;
+    text-align: center;
+    
+}
+/*https://colorhunt.co/palette/265132*/
+h1{
+    color:#66BFBF;
+    font-family: 'Meddon', cursive;
+    font-weight: 400;
+    font-size: 4.5rem; 
+    line-height: 2;
+    margin:50px auto 0 auto;
+    
+    
+    
+    /*font-family: 'Sacramento', cursive;*/
+    /* 16px = 100%  and 1em = 16px*/
+    /* em and % font size are used for dynamic Website
+    rem is used because the parent element effect the font
+    size when we change the font size of the parent element 
+    that why we use rem for save our font by effecting the 
+    parent font size */
+
+
+
+}
+h2{
+    color:#66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+h3{
+    
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:800;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width:8px ;
+    color:grey;
+    width:5%;
+    margin:100px auto 100px auto;
+    
+    
+}
+
+span{
+    text-decoration: underline;
+}
+.middle{
+    margin-top:150px;
+}
+.bottom-cloud{
+    bottom:300px;
+    left: 300px;
+    position: absolute;
+    
+}
+.bottom{
+    background-color: #66BFBF;
+    height:7rem;
+    text-align: center;
+    margin-top:100px;
+    padding-top:40px ;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+.Copyright{
+    color:#EAF6F6;
+    padding-top:20px;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.profile-img{
+    width:20%;
+    
+    
+}
+.paragraph{
+    color:#40514E;
+    font-weight:600;
+    font-size: 1.09rem;
+    
+}
+.paragraph-1{
+    color:#40514E;
+    font-size: 1.09rem;
+    line-height: 2;
+    margin: 40px auto 60px auto;
+    font-weight: 600;
+    width:40%;
+
+    
+}
+
+.footer-link{
+    color:#11999E;
+    padding:0 20px 0 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.top{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top:100px;
+    
+}
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top:50px;
+}
+.skill-row{
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    width:50%;
+    
+
+}
+.skill-image{
+    width:25%;
+    float:left;
+    margin-right: 50px;
+}
+.skill-image-2{
+    width:25%;
+    float: right;
+    margin-left:50px;
+}
+.button{
+    
+    text-decoration: none;
+    color:white;
+    background-color: #66BFBF;
+    height:60px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding:15px;
+    cursor:pointer;
+    ;
+    
+    
+}
+a:hover{
+    color:black;
+    
+}
+.button:hover{
+       background-color: #64978e;
+}
+
+/* Media Queries*/
+@media (max-width: 992px)
+{
+   
+}
+@media (min-width:500px) and (max-width:750px)
+{
+    /* Top Section*/
+    .name
+    {
+        font-size: 3rem;
+    }
+    .bottom-cloud
+    {
+        bottom:290px;
+        left: 350px;
+        position: absolute;
+        
+    }
+    .mountain
+    {
+        width:85%;
+        
+    }
+    /* Middle Section*/
+    .intro
+    {
+        color:#40514E;
+        font-weight:600;
+        font-size: 1rem;
+        width:70%;
+        margin-left:4rem;
+    }
+    /* Skills*/
+    .skill-image
+    {
+        width:50%;
+        margin-left:6rem;
+        margin-bottom: 1rem;
+    }
+    .skill-image-2
+    {
+        width:50%;
+        margin-right:7.0rem;
+        margin-bottom: 1rem;
+    }
+    .skill-row
+    {
+        width:75%;
+    }
+    .skill-name
+    {
+        font-size: 1.6rem;
+        font-weight: 1500;
+       margin-left: 3.8rem;
+    }
+    .skill-name-2
+    {
+        font-size: 1.6rem;
+        font-weight: 1500;
+       margin-left: 3.8rem;
+    }
+    .design
+    {
+        font-size: 0.8rem;
+        width:100%;
+        margin-right: 7rem;
+        margin-left: 1rem;
+        
+    }
+    .hot
+    {
+        font-size: 0.8rem;
+        width:100%;
+        margin-left: 1rem;
+        
+    }
+    /* Contact me*/
+    .touch
+    {
+        font-size: 2rem;
+        font-weight:bolder;
+    }
+    .paragraph-1
+    {
+        font-size: 1rem;
+        width:60%;
+    }
+    h2
+    {
+        font-size: 1.9rem;
+    }
+    /* HR tags*/
+    hr
+    {
+        border-style: dotted none none none;
+        border-width:6px ;
+        color:grey;
+        width:5%;
+        margin:100px auto 100px auto;
+    }
+
+
+}
+@media (max-width: 499px)
+{
+    /* Top Section*/
+    .name
+    {
+        font-size: 3rem;
+    }
+    
+    .bottom-cloud
+    {
+        bottom:270px;
+        left: 200px;
+        position: absolute;
+        
+    }
+    .top-cloud
+    {
+        position: absolute;
+        right:200px;
+        top:70px;
+    }
+    .mountain
+    {
+        width:95%;
+        
+    }
+    /* Middle Section*/
+    .intro
+    {
+        color:#40514E;
+        font-weight:600;
+        font-size: 0.7rem;
+        width:70%;
+        margin-left:4rem;
+    }
+    /* Skills*/
+    .skill-image
+    {
+        width:40%;
+        margin-left:5rem;
+        margin-bottom: 1rem;
+        margin-top: 0rem;
+    }
+    .skill-image-2
+    {
+        width:40%;
+        margin-right:5.7rem;
+        margin-bottom: 1rem;
+    }
+    .skill-row
+    {
+        width:75%;
+        margin-top: 4rem;
+    }
+    .skill-name
+    {
+        font-size: 1.2rem;
+        font-weight: 1500;
+       margin-left: 2.4rem;
+    }
+    .skill-name-2
+    {
+        font-size: 1.2rem;
+        font-weight: 1500;
+       margin-left: 3rem;
+    }
+    .design
+    {
+        font-size: 0.7rem;
+        width:100%;
+        margin-right: 7rem;
+        margin-left: 1.4rem;
+        
+    }
+    .hot
+    {
+        font-size: 0.7rem;
+        width:100%;
+        margin-left: 1.4rem;
+        
+    }
+    /* Contact me*/
+    .touch
+    {
+        font-size: 1.5rem;
+        font-weight:bolder;
+    }
+    .paragraph-1
+    {
+        font-size: 0.8rem;
+        width:70%;
+    }
+    .wings
+    {
+        font-size: 1rem;
+    }
+    h2
+    {
+        font-size: 1.5rem;
+    }
+    /* HR tags*/
+    hr
+    {
+        border-style: dotted none none none;
+        border-width:4px ;
+        color:grey;
+        width:5%;
+        margin:100px auto 100px auto;
+    }
+
+
+}
+
