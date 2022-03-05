@@ -167,6 +167,10 @@ a:hover{
 @media (min-width:500px) and (max-width:750px)
 {
     /* Top Section*/
+    .profile-img
+    {
+        width: 40%;
+    }
     .name
     {
         font-size: 3rem;
@@ -266,6 +270,10 @@ a:hover{
 @media (max-width: 499px)
 {
     /* Top Section*/
+    .profile-img
+    {
+        width: 40%;
+    }
     .name
     {
         font-size: 3rem;
